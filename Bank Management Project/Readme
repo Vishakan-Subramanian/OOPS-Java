@@ -1,0 +1,64 @@
+Project Team Members:
+	
+		S Vishakan	18 5001 196
+		V Vikram 	18 5001 194
+		H K Vishal	18 5001 197
+
+
+Java Files and Description:
+
+JFrames Used:
+	
+	FeedbackForm	: To accept feedback from the user and store it in a file.
+
+	FixedCreator	: Wizard to create new fixed deposit account for a registered user.
+
+	LoanCreator	: Wizard for a registered user to apply for a loan.
+	
+	Login		: Login screen for a user to provide his Name and PIN for authentication purposes.
+
+	SavingsCreator 	: Wizard to create a new savings account for a registered user.
+
+	Statement	: To view a user's account statement for his various accounts viz. Savings, Fixed Deposit and Loan.
+
+	Transaction	: To perform Credit and Debit Transactions on the user's savings account.
+	
+	UserDetailsForm	: To collect user details and open accounts of his/her choice upon registration.
+
+	UserScreen	: Provides a Main Menu styled approach for a logged in user to perform various tasks like opening an account, viewing his/her statement, perform transactions and give user feedback.
+
+	Welcome		: Is the Main Screen of the Program. The control flow of the application starts from this frame. It provides a with options to create a new account or login to an existing account.
+
+
+Classes Used:
+
+	Credentials	: To handle with User Credentials upon Login, and to perform file handling on user's credentials viz. writing new user's credentials into a file and getting User Credentials to check for on Login and to return UserID upon successful login.
+
+	FixedDeposit	: To handle with Fixed Deposit related data members and to perform file handling on the same, i.e reading and writing data from and to the file respectively.
+
+	Loan		: To handle with Loan related data members and to perform file handling on the same, i.e reading and writing data from and to the file respectively.
+
+	Savings		: To handle with Savings related data members and to perform file handling on the same, i.e reading and writing data from and to the file respectively.
+
+	UserDetails	: To handle with User Details related data members and to perform file handling on the same, i.e reading User Details object from the file on the UserScreen and to write UserDetails object on new user registration in UserDetailsForm.
+
+
+Main Function JFrame:		Welcome.java
+
+
+OOPS Concepts Involved:
+			Package Handling
+			Exception Handling
+			Classes and Objects
+			Inheritance
+			Constructors
+
+
+Miscellaneous Information:
+				This project was done in Apache NetBeans IDE 11.1 on Ubuntu OS, on OpenJDK Version 13 (2019-09-17) There were some compatibility issues while running in older versions of NetBeans and also while running on older versions of JDK. Similarly, there were some issues while running the same project on NetBeans in Windows OS. 
+				The main file has been set to Welcome.java and compilation was successful with no known bugs.
+
+				The JAR file was also built for the project and has been attached with the ZIP file.
+
+				Since the Program was done in an IDE with File Handling, the whole Java Project File has been included in the ZIP file as "BankManagement" which can be opened directly via NetBeans IDE and executed/viewed.
+
